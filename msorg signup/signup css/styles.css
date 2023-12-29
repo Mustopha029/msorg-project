@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Raleway", sans-serif;
+}
+
+.msorg_container {
+  display: grid;
+  grid-template-columns: 2fr 80rem;
+  column-gap: 10rem;
+  row-gap: 0;
+}
+
+.msorg_img--container {
+  position: relative;
+  height: 100%;
+}
+
+.msorg_img--container-img {
+  width: 100%;
+  height: 105%;
+}
+
+.msorg_discription-first {
+  position: absolute;
+  top: 17rem;
+  right: 25rem;
+  color: #fff;
+}
+
+.msorg_discription-text--first-1 {
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: 2;
+}
+
+.msorg_discription-second {
+  position: absolute;
+  bottom: -7rem;
+  right: 0rem;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 8rem 4.6rem 5rem;
+  border-bottom-left-radius: 1rem;
+  width: 100%;
+  /* border-bottom-right-radius: 1rem; */
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  border-top: 1px solid #ffff00;
+}
+
+.msorg_discription-text-1 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.msorg_discription-text-2 {
+  font-size: 2.5rem;
+  margin-bottom: 13rem;
+}
+
+.msorg_text--container {
+  margin-top: 5rem;
+  padding-left: 10rem;
+}
+
+.msorg_form--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5rem;
+}
+
+.address {
+  grid-column: -3 / -1;
+}
+
+.msorg_text--container-sub-heading {
+  font-size: 6rem;
+  color: #1b1c1e;
+  text-align: center;
+  margin: 0rem 0 8rem;
+  font-weight: 700;
+}
+
+.msorg_form--container-group:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+.msorg_form--container-label {
+  font-size: 3rem;
+  color: #1b1c1e;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.msorg_form--container-input {
+  font-size: 3rem;
+  padding: 4rem 4rem;
+
+  background-color: #eceff6;
+  border-radius: 1rem;
+  border: 1px solid #c0c5d1;
+  width: 100%;
+  display: block;
+}
+.msorg_form--container-input:focus {
+  outline: none;
+  border: 2px solid #004a27;
+}
+
+.msorg_btn:link,
+.msorg_btn:visited {
+  display: inline-block;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  background-color: #004a27;
+  text-decoration: none;
+  margin: 0 0 5rem;
+  padding: 5rem 0 5rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.msorg_account {
+  font-size: 3rem;
+
+  margin: 4rem 25rem 5rem 0;
+  font-weight: 600;
+}
+
+.condition {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.msorg_account--create-account-link:link,
+.msorg_account--create-account-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #004a27;
+}
+
+.msorg_date {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  font-weight: 600;
+}
+
+.msorg_date-link {
+  text-decoration: none;
+  color: #004a27;
+}
