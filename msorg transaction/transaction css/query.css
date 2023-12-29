@@ -1,0 +1,157 @@
+@media (max-width: 2510px) {
+  html {
+    font-size: 60%;
+  }
+
+  /* .msorg_text--container {
+    margin: 0 0 0;
+  } */
+}
+
+@media (max-width: 2100px) {
+  html {
+    font-size: 57%;
+  }
+}
+
+@media (max-width: 1950px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 1850px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1700px) {
+  html {
+    font-size: 47%;
+  }
+}
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 1520px) {
+  html {
+    font-size: 60%;
+  }
+
+  .msorg_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 15rem 10rem 0;
+  }
+
+  .msorg_img--container {
+    display: none;
+  }
+
+  .msorg_text--container-sub-heading {
+    margin: 4rem 0 6rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 1150px) {
+  html {
+    font-size: 47%;
+  }
+
+  .msorg_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 25rem 10rem 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 40%;
+  }
+
+  .msorg_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 35rem 10rem 0;
+  }
+}
+
+@media (max-width: 850px) {
+  html {
+    font-size: 35%;
+  }
+
+  .msorg_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 45rem 10rem 0;
+  }
+}
+
+@media (max-width: 750px) {
+  html {
+    font-size: 30%;
+  }
+
+  .msorg_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 60rem 7rem 0;
+  }
+}
+
+@media (max-width: 630px) {
+  .msorg_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 60rem 3rem 0;
+  }
+}
+
+@media (max-width: 560px) {
+  html {
+    font-size: 25%;
+  }
+
+  .msorg_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 60rem 3rem 0;
+  }
+}
+
+@media (max-width: 467px) {
+  html {
+    font-size: 20%;
+  }
+
+  .msorg_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 60rem 3rem 0;
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 15%;
+  }
+
+  .msorg_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 60rem 3rem 0;
+  }
+}
