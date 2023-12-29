@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Raleway", sans-serif;
+}
+
+.msorg_container {
+  display: grid;
+  grid-template-columns: 80rem 2fr;
+  gap: 5rem;
+}
+
+.msorg_img--container {
+  height: 100%;
+}
+.msorg_img--container-img {
+  display: inline-block;
+  width: 100%;
+  height: 101.5%;
+  position: relative;
+}
+.msorg_img--container-span {
+  position: absolute;
+  bottom: 0rem;
+  left: 0rem;
+  color: #fff;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 4rem 31rem;
+  border-bottom-left-radius: 1rem;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  border-top: 1px solid #ffff00;
+}
+
+.msorg_text--container {
+  margin-top: 13rem;
+}
+.msorg_text--container-heading {
+  font-size: 5rem;
+  color: #004a27;
+  text-align: center;
+  text-transform: uppercase;
+  margin: auto 20rem auto 0;
+  font-weight: 900;
+  letter-spacing: 2;
+}
+.msorg_text--container-sub-heading {
+  font-size: 5rem;
+  color: #1b1c1e;
+  text-align: center;
+  margin: 4rem 21rem 5rem 0;
+  font-weight: 700;
+}
+
+.msorg_form--container-group:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+.msorg_form--container-label {
+  font-size: 3rem;
+  color: #1b1c1e;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.msorg_form--container-input {
+  font-size: 3rem;
+  padding: 4rem 4rem;
+  background-color: #eceff6;
+  border-radius: 1rem;
+  border: 1px solid #c0c5d1;
+  width: 95%;
+  display: block;
+}
+.msorg_form--container-input:focus {
+  outline: none;
+  border: 2px solid #004a27;
+}
+
+.msorg_btn:link,
+.msorg_btn:visited {
+  display: inline-block;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  background-color: #004a27;
+  text-decoration: none;
+  margin: 0 0 3rem;
+  padding: 5rem 9rem 5rem 0;
+  border-radius: 1rem;
+  width: 95%;
+}
+
+.msorg_account {
+  font-size: 3rem;
+  text-align: center;
+  margin: 4rem 25rem 2rem 0;
+  font-weight: 600;
+}
+.msorg_account--create-account {
+  margin-bottom: 1rem;
+}
+.msorg_account--create-account-link:link,
+.msorg_account--create-account-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #004a27;
+}
+
+.msorg_date {
+  font-size: 3rem;
+  text-align: center;
+  margin: 16rem 25rem 0 0;
+  font-weight: 600;
+}
